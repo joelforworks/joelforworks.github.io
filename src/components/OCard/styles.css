@@ -78,3 +78,19 @@
   background-color: #F5F5DC;
   color: black;
 }
+
+@media (max-width: 768px) {
+  .OCard__number {
+    left: auto;        
+    top: auto;         
+    right: 0;
+    bottom: 0.25rem;
+  }
+  .OCard__header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+}

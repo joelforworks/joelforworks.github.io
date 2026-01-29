@@ -7,6 +7,7 @@
   height: 60px;
   white-space: nowrap;
   overflow: hidden;
+  position: relative;
 }
 
 .Nav__logo {
@@ -47,6 +48,36 @@
 }
 .Nav__link:hover {
   color: #646cff;
+}
+
+@media (max-width: 768px) {
+  .Nav {
+    border: solid black 1px;
+  }
+  .RainbowBackground {
+    position: absolute;
+    inset: 0;              
+    z-index: 1;
+    pointer-events: none; 
+    height: 100%;
+  }
+  .Nav__logo,
+  .Nav__list {
+    position: relative;
+    z-index: 2;
+    background-color: none;
+    color: black;
+    border-color: black;
+  }
+  .Nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .Nav__link:hover {
+    color: black;
+  }
 }
 
 

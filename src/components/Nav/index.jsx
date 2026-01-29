@@ -24,7 +24,10 @@ const Nav = () => {
   return (
     <nav className="Nav">
       <div className="Nav__logo">Archivo</div>
-      <RainbowBackground/>
+      <RainbowBackground />
+      <div className='RainbowBackground'>
+        <RainbowBackground />
+      </div>
       <ul className="Nav__list">
         {links?.map((link)=>(
           <li className="Nav__item">
