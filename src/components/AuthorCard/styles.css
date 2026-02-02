@@ -17,3 +17,8 @@
 .AuthorCard__container .AuthorCard__container__description {
   line-height: 0.8;
 }
+@media (max-width: 768px) {
+  .AuthorCard__container img {
+    max-width: 20%;
+  }
+}

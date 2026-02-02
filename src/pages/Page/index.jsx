@@ -36,7 +36,9 @@ const Page = () => {
   return (
     <Layout>
       <div className='Page__grid'>
-        <CategoryList categories={categories}/>
+        <div>
+          <CategoryList categories={categories}/>
+        </div>
         <div className='Page__content'>
           <div className='Page__content__title'>{post.title}</div>
           <div className='Page__content__text'>{post.content}</div>
