@@ -61,13 +61,15 @@
     pointer-events: none; 
     height: 100%;
   }
-  .Nav__logo,
-  .Nav__list {
+  .Nav__logo {
     position: relative;
     z-index: 2;
     background-color: none;
     color: black;
-    border-color: black;
+    border: none;
+  }
+  .Nav__list {
+    display: none;
   }
   .Nav__link {
     color: black;
