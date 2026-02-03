@@ -8,7 +8,7 @@ const Nav = () => {
     {
       title:'Biografía',
       tag:'biography'
-    }
+    },
   ]
   useEffect(() => {
     const fetch = async () => {
